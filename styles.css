@@ -75,7 +75,7 @@ a img{border:0px;}
 
 #about{margin:0px 43px; padding-top:115px;}
 #about h1{float:left;}
-#about #top-social{float:right; padding-top:62px;}
+#about #top-social{float:right; padding-top:42px; padding-bottom: 20px;}
 #about #top-social li{float:left; list-style:none; margin-left:10px;}
 #about #top-social .facebook{
 	text-indent:-9999px; 
@@ -120,6 +120,10 @@ a img{border:0px;}
 /* WORK SECTION */
 /****************************************************/
 
+.link {
+	text-decoration: underline;
+}
+
 .carousel {
 	margin-left: auto;
     margin-right: auto;
@@ -128,6 +132,8 @@ a img{border:0px;}
 }
 
 .carousel-control.left, .carousel-control.right {
+	height: 357px;
+	color: black;
     background-image: none
 }
 
@@ -137,13 +143,26 @@ a img{border:0px;}
     right: auto;
 }
 
+.carousel-indicators li {
+		background-color: black;
+}
+
+.carousel-indicators .active {
+		background-color: black;
+}
+
+.carousel-indicators {
+	color: black;
+	top: 300px;
+}
+
 .car-img {
 	float: none;
 	width: 750px;
 	height: auto;
 }
 
-#work{margin:0px 43px; padding-top:115px;}
+#work{margin:0px 43px; height: auto; padding-top:85px;}
 #work .content{overflow:auto;}
 #work #work-thumbs li{
 	list-style:none;
@@ -156,7 +175,7 @@ a img{border:0px;}
 /****************************************************/
 /* CONNECT SECTION */
 /****************************************************/
-#connect{margin:0px 43px; padding-top:115px;}
+#connect{margin:0px 43px; padding-top:85px;}
 #connect .content{overflow:auto;}
 #connect #email {
 	text-decoration: underline;
